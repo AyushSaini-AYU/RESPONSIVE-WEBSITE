@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    z-index: 999;
+    position: absolute;
+}
+
+#overlay h1{
+    margin-top: 300px;
+    margin-left: 650px;
+    font-size: 100px;
+    font-family: Cinzel Decorative;
+    font-weight: 100;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+#leftdiv{
+    width: 60%;
+    min-height: inherit;
+    /* background-color: burlywood; */
+}
+
+#rightdiv{
+    width: 40%;
+    min-height: inherit;
+    /* background-color: chocolate; */
+}
+
+#videodiv{
+    width: 100%;
+    height: 100vh;
+    /* background-color: cornflowerblue; */
+    position: relative;
+    overflow: hidden;
+}
+
+#videodiv video{
+    width: 100%;
+    position: absolute;
+    bottom: 0vh;
+}
+
+#topcontent{
+    position: absolute;
+    width: 30%;
+    height: 80px;
+    /* background-color: black; */
+    padding: 30px 30px;
+}
+
+#topcontent i{
+    color: white;
+    font-size: 20px;
+}
+
+#topcontent a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: kavoon;
+}
+
+#middelcontent{
+    width: 100%;
+    height: 100px;
+    /* background-color: turquoise; */
+    position: absolute;
+    top: 195px;
+    position: relative;
+}
+
+#middelcontent h6{
+    font-size: 14px;
+    font-family: kavoon;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+}
+
+#middelcontent :nth-child(2){
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    right: 270px;
+    color: white;
+    font-family: kavoon;
+}
+
+#middelcontent :nth-child(3){
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: white;
+    font-family: kavoon;
+}
+
+#middelcontent #line{
+    width: 120px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    right: 135px;
+    bottom: 60px;
+}
+
+#bigcontent{
+    width: 100%;
+    height: 290px;
+    /* background-color: violet; */
+    position: absolute;
+    top: 300px;
+}
+
+#bigcontent h1{
+    font-size: 150px;
+    line-height: 100px;
+    font-family: kavoon;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-left: 35px;
+    color: white;
+}
+
+#lastcontent{
+    width: 100%;
+    height: 120px;
+    /* background-color: aqua; */
+    position: absolute;
+    bottom: 4px;
+}
+
+#lastcontent :nth-child(1){
+    text-decoration: none;
+    color: white;
+    font-family: kavoon;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+
+#lastcontent :nth-child(2){
+    text-decoration: none;
+    color: white;
+    font-family: kavoon;
+    position: absolute;
+    top: 60px;
+    left: 90px;
+}
+
+#lastcontent :nth-child(3){
+    text-decoration: none;
+    color: white;
+    font-family: kavoon;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+}
+
+#lastcontent :nth-child(4){
+    font-size: 10px;
+    position: absolute;
+    top: 60px;
+    right: 140px;
+    color: white;
+}
+
+#lastcontent :nth-child(5){
+    font-size: 10px;
+    position: absolute;
+    top: 60px;
+    right: 85px;
+    color: white;
+}
+
+#lastcontent :nth-child(6){
+    font-size: 10px;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    color: white;
+}
+
+#rightdiv #content{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+
+#content #nav{
+    width: 40%;
+    height: 50px;
+    /* background-color: aqua; */
+    margin-left: 350px;
+    
+}
+
+#nav h5{
+    font-family: kavoon;
+    margin-left: 110px;
+    font-size: 16px;
+}
+
+#nav h4{
+    font-family: kavoon;
+    margin-top: -20px;
+    margin-left: 190px;
+    opacity: 0.5;
+}
+
+#sidenav{
+    width: 70%;
+    height: 50px;
+    /* background-color: yellowgreen; */
+    transform: rotate(90deg);
+    margin-left: 360px;
+    margin-top: 240px;
+    position: relative;
+}
+
+#sidenav :nth-child(1){
+    font-family: kavoon;
+    position: absolute;
+    top: 15px;
+    left: 90px;
+    font-weight: 100;
+}
+
+#sidenav :nth-child(2){
+    font-family: kavoon;
+    position: absolute;
+    top: 15px;
+    left: 320px;
+    font-weight: 100;
+}
+
+#sidenav #line{
+    width: 95px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 22px;
+    left: 210px;
+}
+
+#v1div{
+    width: 220px;
+    height: 300px;
+    /* background-color: blue; */
+    margin-left: 320px;
+    margin-top: -220px;
+    overflow: hidden;
+}
+
+#v1div video{
+    height: 100%;
+    margin-left: -10px;
+}
+
+#v2div{
+    width: 200px;
+    height: 300px;
+    /* background-color: blue; */
+    margin-left: 60px;
+    margin-top: -15px;
+    overflow: hidden;
+}
+
+#v2div video{
+    height: 100%;
+    margin-left: -30px;
+}
+
+#content button{
+    position: absolute;
+    bottom: 40px;
+    right: 70px;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+}
+ 
+@media ( max-width: 500px ){
+
+    #overlay{
+        width: 100%;
+        min-height: 200vh;
+        overflow: hidden;
+    }
+
+    #overlay h1{
+       margin-left: 21%;
+    }
+
+    #main{
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #leftdiv{
+        width: 100%;
+    }
+
+    #leftdiv #videodiv{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #videodiv video{
+        width: 172%;
+        position: absolute;
+        right: -52px;
+        bottom: -4vh;
+    }
+
+    #topcontent{
+        width: 46%;
+    }
+
+    #middelcontent{
+        top: 138px;
+    }
+
+    #middelcontent h6{
+        margin-left: 18px;
+    }
+
+    #middelcontent :nth-child(2){
+        font-size: 12px;
+        top: 60px;
+        right: 151px;
+    }
+
+    #middelcontent :nth-child(3){
+        font-size: 12px;
+        top: 60px;
+        right: 3px;
+    }
+
+    #middelcontent #line{
+        width: 77px;
+        height: 1px;
+        right: 68px;
+        bottom: 32px;
+    }
+
+    #bigcontent{
+        height: 213px;
+        top: 308px;
+    }
+
+    #bigcontent h1{
+        font-size: 76px;
+        line-height: 77px;
+        margin-left: 17px;
+    }
+
+    #lastcontent{
+        height: 68px;
+    }
+
+    #lastcontent :nth-child(1){
+        top: 40px;
+        left: 16px;
+    }
+
+    #lastcontent :nth-child(2){
+        top: 40px;
+        left: 60px;
+    }
+
+    #lastcontent :nth-child(3){
+        top: 40px;
+        left: 114px;
+    }
+
+    #lastcontent :nth-child(4){
+        top: 47px;
+        right: 90px;
+    }
+
+    #lastcontent :nth-child(5){
+        top: 47px;
+        right: 52px;
+    }
+
+    #lastcontent :nth-child(6){
+        top: 47px;
+        right: 15px;
+    }
+
+    #rightdiv{
+        width: 100%;
+    }
+
+    #rightdiv #content{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #content #nav{
+        width: 61%;
+        height: 26px;
+        margin-left: 18px;
+    }
+
+    #sidenav{
+        width: 92%;
+        height: 39px;
+        position: absolute;
+        top: 4px;
+        right: -151px;
+    }
+
+    #sidenav :nth-child(1){
+        left: 29px;
+    }
+
+    #sidenav :nth-child(2){
+        left: 246px;
+    }
+
+    #sidenav #line{
+        left: 142px;
+    }
+
+    #v1div{
+        width: 180px;
+        height: 260px;
+        position: absolute;
+        top: 290px;
+        right: 70px;
+    }
+
+    #v1div video{
+        margin-left: -14px;
+    }
+
+    #v2div{
+        width: 175px;
+        height: 244px;
+        position: absolute;
+        bottom: 20px;
+        left: -38px;
+    }
+
+    #v2div video{
+        margin-left: -10px;
+    }
+
+    #content button{
+        right: 33px;
+    }
+
+}
